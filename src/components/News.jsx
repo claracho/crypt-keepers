@@ -61,7 +61,7 @@ class News extends React.Component {
 
   refreshNews() {
     this.props.fetchTrending();
-    const newsArr = ['Bitcoin', 'Litecoin', 'Ethereum'];
+    const newsArr = ['Bitcoin', 'Litecoin', 'Etherium'];
     newsArr.forEach((el) => {
       const cur = this.props.coinNewsObj[el];
       if (cur) {

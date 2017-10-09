@@ -58,7 +58,7 @@ class Overview extends React.Component {
             <TableRow
               coin={tickerData.ETH}
               name="ETH"
-              onClick={() => { this.props.handleClick('Ethereum'); }}
+              onClick={() => { this.props.handleClick('Etherium'); }}
             />
           </tbody>
         </table>
